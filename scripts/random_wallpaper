@@ -1,0 +1,5 @@
+#!/bin/bash
+
+output="$(ls /home/ivar/Wallpapers/ | shuf -n 1)"
+full_path="/home/ivar/Wallpapers/${output}"
+swww img $full_path --transition-type wipe --transition-angle 30 &> /dev/null

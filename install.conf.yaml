@@ -1,0 +1,12 @@
+- defaults:
+    link:
+     relink: true
+
+- link:
+    ~/.config/hypr: hypr
+    ~/.config/kitty: kitty
+    ~/.local/bin/: 
+      path: scripts
+      create: true
+      force: true
+    ~/.config/fish: fish
