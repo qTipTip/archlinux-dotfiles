@@ -9,4 +9,6 @@
       path: scripts
       create: true
       force: true
-    ~/.config/fish: fish
+    ~/.config/fish: 
+      path: fish
+      force: true
